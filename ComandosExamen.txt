@@ -4,7 +4,8 @@ ng new name-proyecto --no-standalone //Usar siempre este
 cd name-proyect //Entrar a carpeta
 ng generate component namecomponent //Para crear un componente
 ng serve //IniciarProyecto
-
+ctrl + c //Para salir del ng serve
+ctrl + s //Guardar un archivo
 npm install primeng --save
 npm install primeicons --sabe
 
