@@ -1,12 +1,13 @@
-ng new mi-proyecto
-ng generate component home
-ng generate component about
-ng new mi-proyecto --no-standalone
-git init 
+ng new mi-proyecto //para crear un proyecto
 
+ng new name-proyecto --no-standalone //Usar siempre este
+cd name-proyect //Entrar a carpeta
+ng generate component namecomponent //Para crear un componente
+ng serve //IniciarProyecto
+ctrl + c //Para salir del ng serve
+ctrl + s //Guardar un archivo
 npm install primeng --save
 npm install primeicons --sabe
-
 
 ESTAMOS DENTRO DE LA CARPETA
 git init //Iniciamos 
@@ -19,10 +20,8 @@ git status //Se pondra en verde si ha sido trackeado
 //Tenemos que iniciar sesion con nuestro correo y nombre de usuario
 git commit -m "Agregue el archivo index.html"
 git push
-git push --set-upstream origin master
-
-ng new mi-proyecto --no-standalone
-ng serve
+git push --set-upstream origin master //Subir archivos por primera vez 
+git pull origin master
 
 
 
