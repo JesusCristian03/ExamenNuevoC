@@ -1,0 +1,44 @@
+ng new mi-proyecto
+ng generate component home
+ng generate component about
+ng new mi-proyecto --no-standalone
+git init 
+
+npm install primeng --save
+npm install primeicons --sabe
+
+
+ESTAMOS DENTRO DE LA CARPETA
+git init //Iniciamos 
+git remote add origin https://github.com/JesusCristian03/AngularNew.git
+git remote set-url origin https://github.com/JesusCristian03/AngularNew.git Poner repositorio actual por segunda vez actualizando el primero
+git status //Vemos que archivos no están trackeados o no están actualizandose
+git add . //Con esto agreagamos todos los archivos dentro de la carpeta
+git status //Se pondra en verde si ha sido trackeado
+
+//Tenemos que iniciar sesion con nuestro correo y nombre de usuario
+git commit -m "Agregue el archivo index.html"
+git push
+git push --set-upstream origin master
+
+ng new mi-proyecto --no-standalone
+ng serve
+
+
+
+
+
+
+
+Ejercicio Práctico
+Aquí tienes un ejercicio práctico para implementar ruteo en tu aplicación Angular:
+
+Crea dos componentes: HomeComponent y AboutComponent.
+
+Configura las rutas en app-routing.module.ts para que HomeComponent se muestre en la ruta raíz (/) y AboutComponent se muestre en la ruta /about.
+
+Agrega enlaces de navegación en tu componente principal (app.component.html) usando routerLink.
+
+Incluye <router-outlet> en tu componente principal para renderizar los componentes según la ruta activa.
+
+Ejecuta tu aplicación con ng serve y verifica que la navegación funcione correctamente entre los componentes.
