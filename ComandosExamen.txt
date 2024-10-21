@@ -1,12 +1,9 @@
-ng new mi-proyecto
-ng generate component home
-ng generate component about
-ng new mi-proyecto --no-standalone
-git init 
+ng new mi-proyecto //para crear un proyecto
+ng generate component namecomponent //Para crear un componente
+ng new name-proyecto --no-standalone //Usar siempre este
 
 npm install primeng --save
 npm install primeicons --sabe
-
 
 ESTAMOS DENTRO DE LA CARPETA
 git init //Iniciamos 
